@@ -2,7 +2,7 @@
  * API Service for Customer Review Sentiment Backend
  */
 
-const DEFAULT_BASE_URL = 'http://127.0.0.1:8000';
+const DEFAULT_BASE_URL = 'https://customer-sentimental-analysis-backend.onrender.com/';
 
 export const getStoredBaseUrl = () => {
   return localStorage.getItem('nlp_backend_url') || DEFAULT_BASE_URL;
